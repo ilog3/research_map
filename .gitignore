@@ -1,0 +1,7 @@
+node_modules
+dist
+.superpowers
+.openharness/
+.DS_Store
+._*
+data/

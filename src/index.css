@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --app-bg: #faf9ff;
+}
+
+/* optional: use bg-[var(--app-bg)] where needed */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--app-bg);
+  color: #1e1b2e;
+}
