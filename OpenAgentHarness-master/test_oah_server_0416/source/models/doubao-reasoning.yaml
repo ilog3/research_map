@@ -1,0 +1,7 @@
+doubao-reasoning:
+  provider: openai-compatible
+  key: 2bbac632-6e31-4ea8-b92d-ed8344bd7b5d
+  url: https://ark.cn-beijing.volces.com/api/v3
+  # 请替换为你在火山方舟里支持 reasoning/thinking 双路输出的模型名
+  # 示例：doubao-seed-thinking-xxx（以你控制台实际模型名为准）
+  name: doubao-seed-2-0-pro-260215

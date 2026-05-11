@@ -1,7 +1,10 @@
-node_modules
-dist
-.superpowers
-.openharness/
-.DS_Store
-._*
-data/
+# Local env files (never commit)
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Build artifacts and deps
+**/node_modules/
+**/dist/
+**/data/
+**/.DS_Store

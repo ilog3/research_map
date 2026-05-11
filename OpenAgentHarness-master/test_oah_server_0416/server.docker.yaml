@@ -1,0 +1,21 @@
+server:
+  host: 127.0.0.1
+  port: 8787
+
+storage:
+  postgres_url: postgres://oah:oah@127.0.0.1:5432/open_agent_harness
+  redis_url: redis://127.0.0.1:6379
+
+paths:
+  workspace_dir: ./source/workspaces
+  chat_dir: ./source/chat
+  template_dir: ./source/templates
+  model_dir: ./source/models
+  tool_dir: ./source/tools
+  skill_dir: ./source/skills
+
+llm:
+  # 当前默认：稳定文本模型（通常只返回 answer lane）。
+  # default_model: kimi-k25
+  # 切换到推理双路模型时，改为：
+  default_model: doubao-reasoning
